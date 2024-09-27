@@ -13,16 +13,37 @@ body {
     color: #333;
     background-color: #f7f9fc;
     padding: 20px;
+    background-image: url('/static/img/fundo-floral-de-design-plano_23-2149252174.avif');
+    background-size: cover; 
+    background-position: center;
+    height: 400px;
 }
+
+/* Estilo para o container Secundario do registro */
+
+.container-p2 {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4%;
+    background-color: #fff; /* Fundo branco como fallback */
+    background-size: cover; /* Para cobrir o elemento com a imagem */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+
 
 /* Estilo para o container principal */
 .container {
     max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 4%;
+    background-color: #fff; /* Fundo branco como fallback */
+    background-size: cover; /* Para cobrir o elemento com a imagem */
+    background-position: center; /* Centraliza a imagem */
+    border-radius: 25px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Estilo para o cabeçalho principal */
